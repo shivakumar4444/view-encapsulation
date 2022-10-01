@@ -1,0 +1,21 @@
+/* ::ng-deep p{
+  color: red;
+} */
+/* :host {
+color: blue;
+}
+:host p {
+color: brown;
+}
+:host b {
+color: green;
+} */
+b{
+  color: aquamarine;
+}
+p{
+  background-color: aqua;
+}
+.pclass{
+  background-color: yellow;
+}

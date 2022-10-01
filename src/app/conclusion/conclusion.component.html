@@ -1,0 +1,20 @@
+<h3 style="margin: 5px; padding: 5px">
+conclusion: default emulation is emulated
+<br /><br />
+if Emulated--------> default <br />1) ::ng-deep styles became global styles<br />
+2) :host styles will apply to current compo and child comps, and :host plus
+style holder(id, class, tag) will apply to current component and will not
+apply to child components<br />
+3) component styles will not apply to parent or child
+<br /><br />
+if ShadowDom-----------<br />
+1) ::ng-deep not working<br />
+2) :host styles will apply to current compo and child comps, and :host plus
+style holder(id, class, tag) will apply to current component and will also
+apply to child components<br />
+3) component styles will apply to it and it's child only
+<br /><br />
+if None---------- <br />1) ::ng-deep not working<br />
+2) :host not working<br />
+3) component styles became global
+</h3>
